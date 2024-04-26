@@ -1,8 +1,8 @@
 # Algorithm1_project_pm2.5
-Program Description: Visualizing Pollution Monitoring Stations Graph
+
 
 ## Overview
-This Python project models a network of pollution monitoring stations as a graph and provides functionality to find the least pollution path between two stations.
+This Python project models a network of pollution monitoring stations as a graph and provides functionality to find the shortest path between two stations.
 ![Station Graph](Graph_station.png)
 ## Graph Representation
 - **Vertices**: Pollution monitoring stations, labeled with their station names (e.g., 'Station1', 'Station2', etc.).
@@ -10,10 +10,9 @@ This Python project models a network of pollution monitoring stations as a graph
 - **Weights**: Each edge has a weight representing the distance between connected stations, measured in kilometers.
 
 ## Problem Statement
-The problem addressed by this project is to find the least pollution path from a given source station to a destination station. The least pollution path minimizes the sum of the PM2.5 values along the path.
-
+The problem addressed by this project is to find the shortest path from a given source station to a destination station and display the station, PM2.5 among path.
 ## Algorithm Used
-The project uses Dijkstra's algorithm to find the least pollution path:
+The project uses Dijkstra's algorithm to find the shortest path path:
 - Dijkstra's algorithm is a graph search algorithm that finds the shortest paths from a source vertex to all other vertices in a weighted graph.
 
 ## Running Time Complexity
