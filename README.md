@@ -3,7 +3,7 @@ Program Description: Visualizing Pollution Monitoring Stations Graph
 
 ## Overview
 This Python project models a network of pollution monitoring stations as a graph and provides functionality to find the least pollution path between two stations.
-![Station Graph](C:\Users\Sunthorn\Algorithm1_project_pm2.5\Graph_station.png)
+![Station Graph](Graph_station.png)
 ## Graph Representation
 - **Vertices**: Pollution monitoring stations, labeled with their station names (e.g., 'Station1', 'Station2', etc.).
 - **Edges**: Connections between stations, representing the proximity or distance between them. They are undirected edges.
